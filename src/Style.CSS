@@ -132,15 +132,23 @@
         .main-menu__link:active{
             text-decoration: underline;
             font-weight: unset;
-            color: silver;
+            color: red;
            
         }
         .main-menu__link{
+            font-size: 1.4pc;
+            
             text-decoration: underline;
             font-weight: unset;
-            color: #c5d6d8;
+            color: black;
            
         }
+        .main_link_redirect{ 
+            font-size: 2pc;
+           
+            text-decoration: underline;
+            font-weight: unset;
+            color: rgb(235, 16, 16);}
         .space{
             list-style-type: initial;
     text-align: end;
@@ -173,28 +181,56 @@
             margin-bottom: 1.5pc;
         }
         .content-footer{
+            display: flex;
             width: 1500px;
-        background-color: rgb(187, 187, 196);
+            font-family: Georgia, 'Times New Roman', Times, serif;
         margin-top: 5pc;
-        align-content: center;
         margin-top: 2pc;
       
         }
 
         .info-proy{
-            width: 100%;
-            background-color: #878d8f;
-            text-align: left;
+            background-color: rgb(187, 187, 196);
+            width: 50%;
+            margin-left: 1pc;
             margin-top: 2pc;
+            
         }
         .contact{
-            width: 100%;
-            background-color: rgb(200, 200, 221);
-            text-align: left;
+            background-color: rgb(187, 187, 196);
+            width: 50%;
+            margin-left: 1pc;
             margin-top: 2pc;
         }
 
         /* Servicios */
         .margin-body-services{
             margin-top: 5pc;
+        }
+
+        .text-footer{
+            margin-top: 2pc;
+            margin-bottom: 2pc;
+            margin-left: 3pc;
+            margin-right: 3pc;
+            text-align:justify ;
+        }
+        .text-footer h4{
+            margin-left: 2pc;
+            text-align:center ;
+        }
+        .redirect-up{
+            width: 1500px;
+            margin-left: 5pc; 
+            margin-bottom: 5pc ;
+            
+        }
+        .redirect-principal{
+            width: 50%;
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            text-decoration: underline;
+            color: rgb(241, 20, 20);
+           margin-left: 5pc; 
         }
