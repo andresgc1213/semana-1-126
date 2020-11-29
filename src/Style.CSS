@@ -5,7 +5,7 @@
 }
     .container {
         height: 100%;
-        width: 1500px;
+        width: 1300px;
         display: flex;
         margin-bottom: 1.5pc;
       }
@@ -99,7 +99,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 1500px;
+    width: 1300px;
     
     margin-right: auto;
     }
@@ -165,7 +165,7 @@
         .banner{
             background-image: url(/src/img/cabecera.jpg);
             justify-content: space-evenly;
-            width: 1500px;
+            width: 1300px;
             margin-bottom: 1.5pc;
         }
         .menu-principal-service{
@@ -182,7 +182,7 @@
         }
         .content-footer{
             display: flex;
-            width: 1500px;
+            width: 1300px;
             font-family: Georgia, 'Times New Roman', Times, serif;
         margin-top: 5pc;
         margin-top: 2pc;
@@ -220,7 +220,7 @@
             text-align:center ;
         }
         .redirect-up{
-            width: 1500px;
+            width: 1300px;
             margin-left: 5pc; 
             margin-bottom: 5pc ;
             
